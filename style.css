@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  color: #333;
+}
+
+#habit-list {
+  margin: 2rem 0;
+}
+
+label {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
