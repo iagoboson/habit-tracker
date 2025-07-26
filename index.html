@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Habit Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Meu Habit Tracker</h1>
+
+  <div id="habit-list">
+    <label><input type="checkbox" data-habit="Beber água"> Beber água</label>
+    <label><input type="checkbox" data-habit="Dormir 8h"> Dormir 8h</label>
+    <label><input type="checkbox" data-habit="Exercício físico"> Exercício físico</label>
+  </div>
+
+  <button onclick="salvarHabitos()">Salvar</button>
+  <p id="status"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
